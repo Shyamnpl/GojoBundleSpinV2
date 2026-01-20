@@ -3,6 +3,6 @@ import lib32
 
 if __name__ == "__main__":
     try:
-        asyncio.run(GojoBundleSpinV2.main())
+        asyncio.run(lib32.main())
     except KeyboardInterrupt:
         pass
