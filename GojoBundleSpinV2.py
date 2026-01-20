@@ -1,8 +1,8 @@
 import asyncio
-import lib32 
+import libmain 
 
 if __name__ == "__main__":
     try:
-        asyncio.run(lib32.main())
+        asyncio.run(libmain.main())
     except KeyboardInterrupt:
         pass
